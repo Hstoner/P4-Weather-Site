@@ -23,12 +23,16 @@ $(document).ready(function() {
 				// Concatenate HTML code & weather variables.
 				// Put into one big'ol collection
 				html = '<h1>'+weather.temp +'&deg;'+weather.units.temp+'</h1>';
-				html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
+				html += '<p>'+weather.city+', '+weather.region+'</p';
 				html += '<img src="img/' + weather.code + '.png"/>';
+				
+				
+				
 				
 				//html += $('body').addClass('color'+ weather.code);
 				
 				// <img src="img/30.png />
+				// <img src="img/raining.png />
 				
 				//html += '<li class="currently">'+weather.currently+'</li>';
 				//html += '<li>'+weather.tempAlt+'&deg;C</li></ul>';
